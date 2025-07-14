@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/tokenInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Token Discord"
+            android:inputType="text"/>
+
+        <EditText android:id="@+id/channelInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Channel"
+            android:inputType="text"/>
+
+        <EditText android:id="@+id/messageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pesan Discord"
+            android:inputType="text"/>
+
+        <EditText android:id="@+id/webhookInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Webhook URL"
+            android:inputType="textUri"/>
+
+        <EditText android:id="@+id/delayInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delay (detik)"
+            android:inputType="number"/>
+
+        <EditText android:id="@+id/totalInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Kirim"
+            android:inputType="number"/>
+
+        <Button android:id="@+id/kirimButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mulai Kirim"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>
